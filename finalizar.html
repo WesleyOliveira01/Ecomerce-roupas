@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max cloths</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+
+    <header id="menu">
+        <h1>Max cloths</h1>
+    </header>
+    <main >
+        <aside class="titulo_produtos">
+            <h2>Finalizar compra</h2>
+        </aside>
+        <div id="conteudo1">
+            <ul>
+                <li>
+                    <article class="caixa" >
+                        <img class="imagem" width="100" height="100" src="img/corinthias.jpg" alt="Camisa corinthias">
+                        <div class="produto">
+                            <h3>Camisa Do Corinthias</h3>
+                            <p>99,90</p>
+                        </div>
+                    </article>
+                </li>
+                <article class="finaliza">
+                    <p class="campos">Endereço:<input type="text" name="Endereco" id="endereco"></p>
+                    <p class="campos">Cartão de credito: <input type="number" name="credito" id="credito"></p>
+                    <button class="btn" onclick="comprar()" >Finalizar compra</button>
+                </article>
+                <div id="efetuada">
+
+                </div>
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

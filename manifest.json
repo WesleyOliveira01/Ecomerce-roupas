@@ -1,0 +1,21 @@
+{
+    "background_color": "#110511",
+    "description": "",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "senac-ti19.github",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "senac-ti19.github",
+    "start_url": "./",
+    "theme_color": "#ffca02",
+    "categories": [],
+    "screenshots": [],
+    "icons": [
+      {
+        "src": "https://senac-ti19.github.io/Ecomercer-roupas/icones/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ],
+    "shortcuts": []
+  }
